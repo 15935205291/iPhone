@@ -1,0 +1,81 @@
+*{margin:0;padding:0;list-style:none;}
+html{font-size:100px;}
+/*头部*/
+#header{width:4.14rem;height:0.48rem;background:#333;position:relative;}
+#header #navLeft img{width:0.48rem;height:0.48rem;float:left;}
+#header #navCenter img{width:0.48rem;height:0.48rem;margin-left:1.35rem;float:left;}
+#header #navRight img{width:0.48rem;height:0.48rem;margin-left:1.35rem;float:left;}
+/*导航栏下拉(左)*/
+#navTwo{width:4.14rem;height:7.36rem;background:#000;position:absolute;top:0;left:0;display:none;}
+#navTwo #navA{width:4.14rem;height:0.48rem;}
+#navTwo #navA img{width:0.48rem;height:0.48rem;float:left;}
+#navTwo #navB{width:4.14rem;height:6.5rem;}
+#navTwo #navB-One{height:0.35rem;font-size:0.22rem;color:#E0E0E0;margin-top:0.15rem;margin-left:0.45rem;float:left;}
+#navTwo #lineB{width:3.17rem;height:0.01rem;background:#333;margin-left:0.45rem;float:left;}
+#navTwo img{width:0.22rem;height:0.22rem;}
+/*导航栏下拉(右)*/
+#logo img{width:0.22rem;height:0.12rem;position:absolute;top:0.37rem;left:3.8rem;display:none;}
+#navThree{width:4.14rem;height:3.25rem;background:#FFF;position:absolute;top:0.48rem;display:none;}
+#navThree #navThreeA{width:4.14rem;height:0.9rem;font-size:0.14rem;color:#999;line-height:0.9rem;text-align:center;}
+#navThree #lineC{width:3.18rem;height:0.01rem;background:#E3E3E3;margin-left:0.5rem;float:left;}
+#navThree #navThreeB{width:4.14rem;height:0.45rem;}
+#navThree #navThreeB img{width:0.2rem;height:0.22rem;margin-left:0.5rem;margin-top:0.1rem;float:left;}
+#navThree #navThreeB p{font-size:0.14rem;color:#68AADF;margin-top:0.15rem;margin-left:0.15rem;float:left;}
+/*内容*/
+#content{width:4.14rem;}
+#content #banner{width:4.14rem;height:1.1rem;}
+#content #banner img{width:4.14rem;height:1.1rem;}
+#content #main{width:4.14rem;height:6.2rem;background:#000;}
+#content #main h5{height:0.4rem;color:#FFF;font-size:0.26rem;margin-top:0.4rem;margin-left:1.7rem;float:left;}
+#content #main p{height:0.7rem;color:#FFF;font-size:0.46rem;margin-left:1.4rem;float:left;}
+#content #main span{height:0.3rem;font-size:0.16rem;color:#CCC;margin-left:1rem;float:left;}
+#content #main a{height:0.3rem;font-size:0.16rem;text-decoration:none;font-size:0.18rem;color:#46BBFF;float:left;}
+#content #main img{width:4.14rem;height:3.05rem;}
+#content #mainTwo{width:4.14rem;height:17.3rem;}
+#content #mainTwo h5{height:0.35rem;font-size:0.26rem;margin-top:0.5rem;margin-left:1.6rem;float:left;}
+#content #mainTwo p{height:0.35rem;color:#333;font-size:0.28rem;margin-left:1.25rem;float:left;}
+#content #mainTwo a{height:0.2rem;font-size:0.16rem;text-decoration:none;font-size:0.18rem;color:#0070C9;margin-left:1.55rem;margin-top:0.1rem;float:left;}
+#content #mainTwo img{width:4.14rem;height:4rem;float:left;}
+#content #mainTwo ul {width:4.14rem;height:2rem;float:left;}
+#content #mainTwo ul img{width:0.25rem;height:0.17rem;margin-left:0.35rem;float:left;}
+#content #mainTwo ul li{height:0.4rem;font-size:0.18rem;color:#333;float:left;}
+#content #mainTwo ul span{height:0.4rem;font-size:0.16rem;color:#333;float:left;clear:both;}
+#content #mainThree{width:4.14rem;height:4.89rem;background:#FAFAFA;}
+#content #mainThree p{height:0.35rem;color:#333;font-size:0.28rem;margin-left:1.5rem;float:left;}
+#content #mainThree span{height:0.2rem;font-size:0.16rem;color:#333;margin-left:0.9rem;float:left;}
+#content #mainThree a{height:0.2rem;font-size:0.16rem;text-decoration:none;font-size:0.18rem;color:#0070C9;margin-left:1.6rem;margin-top:0.2rem;float:left;clear:both;}
+#content #mainThree img{width:4.14rem;height:2.65rem;}
+#content #mainFour{width:4.14rem;height:3.3rem;}
+#content #mainFour p{height:0.55rem;font-size:0.28rem;color:#333;margin-left:1.1rem;margin-top:0.42rem;float:left;}
+#content #mainFour a{height:0.17rem;text-decoration:none;font-size:0.16rem;color:#0070C9;margin-left:1.3rem;float:left;}
+#content #mainFour img{width:4.14rem;height:2.15rem;}
+#content #mainFive{width:4.14rem;height:4.3rem;background:#F2F2F2;}
+#content #mainFive img{width:0.35rem;height:0.35rem;margin-left:2rem;margin-top:0.4rem;float:left;clear:both;}
+#content #mainFive p{height:0.4rem;font-size:0.24rem;color:#333;margin-left:1.6rem;margin-top:0.13rem;float:left;}
+#content #mainFive span{height:0.25rem;font-size:0.17rem;color:#333;margin-left:0.25rem;float:left;}
+#content #mainFive a{height:0.17rem;text-decoration:none;color:#0070C9;font-size:0.16rem;margin-left:1.6rem;margin-top:0.15rem;float:left;}
+#content #mainSix{width:4.14rem;height:8.3rem;}
+#content #mainSix img{width:4.14rem;height:7.33rem;float:left;}
+#content #mainSeven{width:4.14rem;height:8.4rem;background:#FAFAFA;}
+#content #mainSeven img{width:4.14rem;height:1.25rem;}
+#content #mainSeven span{height:0.35rem;font-size:0.16rem;color:#333;margin-left:0.3rem;float:left;}
+#content #mainSeven a{height:0.17rem;text-decoration:none;color:#0070C9;font-size:0.16rem;margin-left:1.6rem;float:left;}
+#content #mainEight{width:4.14rem;height:7.5rem;background:#F2F2F2;}
+#content #mainEight p{height:0.55rem;font-size:0.27rem;color:#333;margin-left:1.13rem;margin-top:0.55rem;float:left;}
+#content #mainEight a{height:0.3rem;text-decoration:none;color:#0070C9;font-size:0.16rem;margin-left:1.3rem;float:left;}
+#content #mainEight img{width:4.14rem;height:3.9rem;}
+#content #mainEight span{height:0.2rem;font-size:0.12rem;color:#999;margin-left:0.15rem;float:left;clear:both;}
+#content #mainEight div{width:3.82rem;height:0.01rem;background:#E3E3E3;margin-left:0.18rem;margin-top:0.2rem;float:left;}
+/*尾部*/
+#footer{width:4.14rem;height:4.6rem;background:#F2F2F2;}
+#footer #guildOne{height:0.5rem;font-size:0.1rem;color:#999;margin-left:0.18rem;margin-top:0.1rem;float:left;}
+#footer #guildOne img{width:0.95rem;height:0.24rem;}
+#footer #line{width:3.82rem;height:0.01rem;background:#E3E3E3;margin-left:0.18rem;float:left;}
+#footer #guildTwo{width:4.14rem;height:0.6rem;float:left;}
+#footer #guildTwoA{width:3.65rem;height:0.6rem;font-size:0.14rem;color:#333;margin-left:0.18rem;margin-top:0.3rem;float:left;}
+#footer #guildTwoB img{width:0.13rem;height:0.13rem;margin-top:0.3rem;float:left;}
+#footer #guildThree{width:4.14rem;height:0.4rem;float:left;}
+#footer #guildThreeA{width:3.65rem;height:0.4rem;font-size:0.14rem;color:#333;margin-left:0.18rem;margin-top:0.12rem;float:left;}
+#footer #guildThreeB img{width:0.13rem;height:0.13rem;margin-top:0.12rem;float:left;}
+#footer #guildFour{height:0.5rem;color:#999;font-size:0.12rem;margin-left:0.18rem;margin-top:0.25rem;float:left;}
+#footer #guildFour span{color:#0070C9;}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

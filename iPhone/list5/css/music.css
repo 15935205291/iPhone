@@ -1,0 +1,358 @@
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    html {
+        font-size: 100px;
+    }
+    
+    #header {
+        width: 100%;
+        height: 0.48rem;
+        background: #333333;
+        position: relative;
+    }
+    
+    #header img {
+        width: 0.48rem;
+        height: 0.48rem;
+        float: left;
+        margin-left: 1.35rem;
+        position: relative;
+    }
+    
+    #header #navLeft {
+        margin: 0;
+    }
+    /*导航栏下拉*/
+    
+    #navTwo {
+        width: 4.14rem;
+        height: 7.36rem;
+        background: #000;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    
+    #navTwo #navA {
+        width: 4.14rem;
+        height: 0.48rem;
+    }
+    
+    #navTwo #navA img {
+        width: 0.48rem;
+        height: 0.48rem;
+        float: left;
+    }
+    
+    #navTwo #navB {
+        width: 4.14rem;
+        height: 6.5rem;
+    }
+    
+    #navTwo #navB ul li {
+        width: 4.14rem;
+        height: 0.5rem;
+    }
+    
+    #navTwo #navB ul li img {
+        width: 4.14rem;
+        height: 0.5rem;
+        float: left;
+    }
+    /*导航栏下拉(右)*/
+    
+    #logo img {
+        width: 0.22rem;
+        height: 0.12rem;
+        position: absolute;
+        top: 0.37rem;
+        left: 3.8rem;
+        display: none;
+    }
+    
+    #navThree {
+        width: 4.14rem;
+        height: 3.25rem;
+        background: #FFF;
+        position: absolute;
+        top: 0.48rem;
+        display: none;
+    }
+    
+    #navThree #navThreeA {
+        width: 4.14rem;
+        height: 0.9rem;
+        font-size: 0.14rem;
+        color: #999;
+        line-height: 0.9rem;
+        text-align: center;
+    }
+    
+    #navThree #lineC {
+        width: 3.18rem;
+        height: 0.01rem;
+        background: #E3E3E3;
+        margin-left: 0.5rem;
+        float: left;
+    }
+    
+    #navThree #navThreeB {
+        width: 4.14rem;
+        height: 0.45rem;
+    }
+    
+    #navThree #navThreeB img {
+        width: 0.2rem;
+        height: 0.22rem;
+        margin-left: 0.5rem;
+        margin-top: 0.1rem;
+        float: left;
+    }
+    
+    #navThree #navThreeB p {
+        font-size: 0.14rem;
+        color: #68AADF;
+        margin-top: 0.15rem;
+        margin-left: 0.15rem;
+        float: left;
+    }
+    
+    #content {
+        width: 100%;
+    }
+    
+    #content .banner {
+        width: 100%;
+        background: #f2f2f2;
+    }
+    
+    #content .banner .btone {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 6.14rem;
+    }
+    
+    #content .banner .bttwo {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 3.85rem;
+    }
+    
+    #content .banner img {
+        float: left;
+        margin-left: 0.195rem;
+        width: 3.4rem;
+        height: 3.39rem;
+    }
+    
+    #content .br_write {
+        background: #fff;
+        width: 3.78rem;
+        margin: auto;
+    }
+    
+    #content .banner p {
+        clear: both;
+        font-size: 0.18rem;
+        padding-top: 0.37rem;
+        color: #333333;
+        margin-left: 0.21rem;
+    }
+    
+    #content .banner h3 {
+        font-size: 0.28rem;
+        color: #333333;
+        font-weight: 100;
+        margin-left: 0.21rem;
+        padding-top: 0.11rem;
+        padding-bottom: 0.11rem;
+    }
+    
+    #content .banner a {
+        display: block;
+        font-size: 0.14rem;
+        color: #888888;
+        margin-left: 0.21rem;
+        padding-bottom: 0.8rem;
+        text-decoration:none;
+    }
+    
+    .kong {
+        width: 100%;
+        height: 0.43rem;
+    }
+    
+    #content .main {
+        width: 100%;
+    }
+    
+    #content .main img {
+        float: left;
+        width: 100%;
+        height: 5.49rem;
+    }
+    
+    #content .main p {
+        clear: both;
+        font-size: 0.18rem;
+        padding-top: 0.30rem;
+        color: #333333;
+        margin-left: 0.35rem;
+    }
+    
+    #content .main h3 {
+        font-size: 0.20rem;
+        color: #333333;
+        font-weight: 500;
+        margin-left: 0.35rem;
+        padding-top: 0.14rem;
+        padding-bottom: 0.14rem;
+    }
+    
+    #content .main a {
+        display: block;
+        font-size: 0.14rem;
+        color: #888888;
+        margin-left: 0.35rem;
+        padding-bottom: 0.8rem;
+        text-decoration:none;
+    }
+    
+    #content .guild {
+        float: left;
+        width: 100%;
+    }
+    
+    #content .guild .guild-one h3 {
+        font-size: 0.25rem;
+        color: #333333;
+        font-weight: 300;
+        padding-top: 0.62rem;
+        padding-bottom: 0.5rem;
+        text-align: center;
+    }
+    
+    #content .guild-one img {
+        width: 4.14rem;
+        height: 2rem;
+    }
+    
+    #content .guild-two img {
+        width: 0.8rem;
+        height: 0.8rem;
+        margin-left: 0.3rem;
+        float: left;
+    }
+    
+    #content .guild-two h3 {
+        font-size: 0.20rem;
+        color: #333333;
+        font-weight: 400;
+        float: left;
+        clear: both;
+        margin-left: 0.4rem;
+        padding-bottom: 0.2rem;
+    }
+    
+    #content .guild-two p {
+        font-size: 0.16rem;
+        color: #333333;
+        clear: both;
+        margin-left: 0.4rem;
+        padding-bottom: 0.4rem;
+    }
+    
+    #content .guild-two a {
+        display: block;
+        font-size: 0.16rem;
+        color: #0070c9;
+        clear: both;
+        margin-left: 0.4rem;
+        padding-bottom: 0.4rem;
+        text-decoration:none;
+
+    }
+    
+    #footer {
+        width: 4.14rem;
+        height: 5.2rem;
+        background: #F2F2F2;
+        float: left;
+    }
+    #footer #guildOne img{
+        width: 4.14rem;
+        height: 0.99rem;
+    }
+    #footer #line {
+        width: 3.82rem;
+        height: 0.01rem;
+        background: #E3E3E3;
+        margin-left: 0.18rem;
+        float: left;
+    }
+    
+    #footer #guildTwo {
+        width: 4.14rem;
+        height: 0.6rem;
+        float: left;
+    }
+    
+    #footer #guildTwoA {
+        width: 3.65rem;
+        height: 0.6rem;
+        font-size: 0.14rem;
+        color: #333;
+        margin-left: 0.18rem;
+        margin-top: 0.3rem;
+        float: left;
+    }
+    
+    #footer #guildTwoB img {
+        width: 0.13rem;
+        height: 0.13rem;
+        margin-top: 0.3rem;
+        float: left;
+    }
+    
+    #footer #guildThree {
+        width: 4.14rem;
+        height: 0.4rem;
+        float: left;
+    }
+    
+    #footer #guildThreeA {
+        width: 3.65rem;
+        height: 0.4rem;
+        font-size: 0.14rem;
+        color: #333;
+        margin-left: 0.18rem;
+        margin-top: 0.12rem;
+        float: left;
+    }
+    
+    #footer #guildThreeB img {
+        width: 0.13rem;
+        height: 0.13rem;
+        margin-top: 0.12rem;
+        float: left;
+    }
+    
+    #footer #guildFour {
+        height: 0.5rem;
+        color: #999;
+        font-size: 0.12rem;
+        margin-top: 0.25rem;
+        margin-left: 0.14rem;
+        float: left;
+    }
+    
+    #footer #guildFour span {
+        color: #0070C9;
+    }

@@ -1,0 +1,13 @@
+*{margin:0;padding:0;list-style:none;}
+html{font-size:100px;}
+*:focus{outline:none}
+/*头部*/
+#header{width:4.14rem;height:0.48rem;background:#000;}
+#header img{width:0.48rem;height:0.48rem;float:left;}
+/*内容*/
+#content{width:4.14rem;height:6.88rem;background:#000;}
+#content img{width:0.25;height:0.37rem;margin-left:0.45rem;margin-top:0.3rem;float:left;}
+#content input{width:2.9rem;height:0.37rem;font-size:0.2rem;margin-top:0.25rem;float:left;background:#000;border:0;outline-width:none;}
+#content #line{width:3.17rem;height:0.01rem;background:#3E3E3E;margin-left:0.5rem;float:left;}
+#content p{height:0.15rem;font-size:0.1rem;color:#6E6E6E;margin-left:0.5rem;margin-top:0.2rem;float:left;}
+#content a{height:0.3rem;font-size:0.15rem;color:#C0C0C0;text-decoration:none;margin-left:0.5rem;margin-top:0.15rem;float:left;clear:both;}
